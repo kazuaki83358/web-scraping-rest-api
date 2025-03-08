@@ -1,0 +1,8 @@
+ktor:
+    deployment:
+        host: "0.0.0.0"  # Binds to all network interfaces
+        port: 8080        # The port your API will be running on
+
+    application:
+        modules:
+            - com.practice.ApplicationKt.module
